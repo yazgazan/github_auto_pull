@@ -4,7 +4,21 @@ github\_auto\_pull
 
 gitub\_auto\_pull is a small service listening for github push hook notifications, and updating the corresponding folder.
 
+## Install
+
+You need (go)[http://golang.org/] to be installed.
+
+```bash
+go get -u github.com/yazgazan/github_auto_pull
+```
+
+## Usage
+
 Example :
+
+```bash
+github_auto_pull
+```
 
 ```toml
 # config.toml
