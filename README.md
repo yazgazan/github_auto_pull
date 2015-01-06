@@ -35,10 +35,10 @@ Listen = ":8454"
 # repo1_name should be the repository name on github
 [[repo1_name]]
 Folder = "./repo1_prod"
-Remote = "http_origin" # the remote url should be an http url.
+Remote = "origin"
 Branch = "master"
 
-# when triggered, the following shell command will be executed : `sh -c "cd './repo1_prod'; git pull 'http_origin' 'master'"`
+# when triggered, the following shell command will be executed : `sh -c "cd './repo1_prod'; git pull 'origin' 'master'"`
 
 [[repo1_name]]
 Folder = "./repo1_test"
