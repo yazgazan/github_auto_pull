@@ -55,3 +55,8 @@ Branch = "master"
 To configure your github repository, you need to add this service address to the webhooks in the github settings (settings > webhooks & Serices > Add webhook).
 Be sure to leave the "Content type" field to application/json, the "Secret" field empty and the "Just the push event" checked.
 
+## Todo
+
+- add support for the Secret
+- add support for ssh remotes
+
