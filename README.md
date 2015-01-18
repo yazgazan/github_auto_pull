@@ -58,5 +58,3 @@ Be sure to leave the "Content type" field to application/json, the "Secret" fiel
 ## Todo
 
 - add support for the Secret
-- add support for ssh remotes
-
