@@ -6,7 +6,7 @@ gitub\_auto\_pull is a small service listening for github push hook notification
 
 ## Install
 
-You need (go)[http://golang.org/] to be installed.
+You need [go](http://golang.org/) to be installed.
 
 ```bash
 go get -u github.com/yazgazan/github_auto_pull
